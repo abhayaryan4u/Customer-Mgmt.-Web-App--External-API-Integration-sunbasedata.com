@@ -1,12 +1,12 @@
 
-const API_BASE_URL = 'https://cors-anywhere.herokuapp.com/https://qa2.sunbasedata.com/sunbase/portal/api';
+const API_BASE_URL = 'https://qa2.sunbasedata.com/sunbase/portal/api';
 const token = localStorage.getItem('jwt');
 let customerDetails = {};
 
 
 //delete function
 async function deleteCustomer(uuid) {
-    const API_BASE_URL = 'https://cors-anywhere.herokuapp.com/https://qa2.sunbasedata.com/sunbase/portal/api';
+    const API_BASE_URL = 'https://qa2.sunbasedata.com/sunbase/portal/api';
     const token = localStorage.getItem('jwt');
 
     try {
