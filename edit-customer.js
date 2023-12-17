@@ -1,4 +1,4 @@
-const API_BASE_URL = 'https://cors-anywhere.herokuapp.com/https://qa2.sunbasedata.com/sunbase/portal/api';
+const API_BASE_URL = 'https://qa2.sunbasedata.com/sunbase/portal/api';
 function updateCustomer() {
     // Retrieve the UUID from the URL query parameters
     var urlParams = new URLSearchParams(window.location.search);
