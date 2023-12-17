@@ -9,7 +9,7 @@ function login() {
 
   const xhttp = new XMLHttpRequest();
 
-  xhttp.open("POST", "https://cors-anywhere.herokuapp.com/https://qa2.sunbasedata.com/sunbase/portal/api/assignment_auth.jsp");
+  xhttp.open("POST", "https://qa2.sunbasedata.com/sunbase/portal/api/assignment_auth.jsp");
   xhttp.setRequestHeader("Content-Type", "application/json");
   xhttp.send(JSON.stringify({
     "login_id": login_id,
